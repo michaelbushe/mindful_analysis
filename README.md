@@ -3,13 +3,13 @@
 [![ci][ci_badge]][ci_badge_link]
 [![pub package][pub_badge]][pub_badge_link]
 [![License: MIT][license_badge]][license_badge_link]
-[![style: very good analysis][badge]][badge_link]
+[![style: mindful analysis][badge]][badge_link]
 
 ---
 
 This package provides lint rules for Dart and Flutter which are used at [Mindful Software][mindful_software_link]. For more information, see the [complete list of options][analysis_options_yaml].
 
-**Note**: This package was heavily inspired by [pedantic][pedantic_link].
+**Note**: This package was heavily inspired by [pedantic][pedantic_link] via VGV.
 
 ## Usage
 
@@ -73,10 +73,10 @@ linter:
 ## Badge
 
 To indicate your project is using `mindful_analysis` →
-[![style: very good analysis][badge]][badge_link]
+[![style: mindful analysis][badge]][badge_link]
 
 ```md
-[![style: very good analysis](https://img.shields.io/badge/style-mindful_analysis-B22C89.svg)](https://pub.dev/packages/mindful_analysis)
+[![style: mindful analysis](https://img.shields.io/badge/style-mindful_analysis-B22C89.svg)](https://pub.dev/packages/mindful_analysis)
 ```
 
 [analysis_options_yaml]: https://github.com/michaelbushe/mindful_analysis/blob/main/lib/analysis_options.1.0.0.yaml
