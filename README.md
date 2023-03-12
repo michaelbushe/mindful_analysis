@@ -1,9 +1,4 @@
-# Very Good Analysis
-
-[![Very Good Ventures][logo_black]][very_good_ventures_link_light]
-[![Very Good Ventures][logo_white]][very_good_ventures_link_dark]
-
-Developed with 💙 by [Very Good Ventures][very_good_ventures_link] 🦄
+# Mindful Analysis
 
 [![ci][ci_badge]][ci_badge_link]
 [![pub package][pub_badge]][pub_badge_link]
@@ -12,7 +7,7 @@ Developed with 💙 by [Very Good Ventures][very_good_ventures_link] 🦄
 
 ---
 
-This package provides lint rules for Dart and Flutter which are used at [Very Good Ventures][very_good_ventures_link]. For more information, see the [complete list of options][analysis_options_yaml].
+This package provides lint rules for Dart and Flutter which are used at [Mindful Software][mindful_software_link]. For more information, see the [complete list of options][analysis_options_yaml].
 
 **Note**: This package was heavily inspired by [pedantic][pedantic_link].
 
@@ -22,19 +17,19 @@ To use the lints, add as a dev dependency in your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  very_good_analysis: ^4.0.0
+  mindful_analysis: ^4.0.0
 ```
 
 Then, add an include in `analysis_options.yaml`:
 
 ```yaml
-include: package:very_good_analysis/analysis_options.yaml
+include: package:mindful_analysis/analysis_options.yaml
 ```
 
 This will ensure you always use the latest version of the lints. If you wish to restrict the lint version, specify a version of `analysis_options.yaml` instead:
 
 ```yaml
-include: package:very_good_analysis/analysis_options.4.0.0.yaml
+include: package:mindful_analysis/mindful_analysis_options.1.0.0.yaml
 ```
 
 ## Suppressing Lints
@@ -69,7 +64,7 @@ class B {}
 To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`:
 
 ```yaml
-include: package:very_good_analysis/analysis_options.yaml
+include: package:mindful_analysis/analysis_options.yaml
 linter:
   rules:
     public_member_api_docs: false
@@ -77,25 +72,21 @@ linter:
 
 ## Badge
 
-To indicate your project is using `very_good_analysis` →
+To indicate your project is using `mindful_analysis` →
 [![style: very good analysis][badge]][badge_link]
 
 ```md
-[![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
+[![style: very good analysis](https://img.shields.io/badge/style-mindful_analysis-B22C89.svg)](https://pub.dev/packages/mindful_analysis)
 ```
 
-[analysis_options_yaml]: https://github.com/VeryGoodOpenSource/very_good_analysis/blob/main/lib/analysis_options.3.1.0.yaml
-[ci_badge]: https://github.com/VeryGoodOpenSource/very_good_analysis/workflows/ci/badge.svg
-[ci_badge_link]: https://github.com/VeryGoodOpenSource/very_good_analysis/actions
-[badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
-[badge_link]: https://pub.dev/packages/very_good_analysis
+[analysis_options_yaml]: https://github.com/michaelbushe/mindful_analysis/blob/main/lib/analysis_options.1.0.0.yaml
+[ci_badge]: https://github.com/VeryGoodOpenSource/mindful_analysis/workflows/ci/badge.svg
+[ci_badge_link]: https://github.com/VeryGoodOpenSource/mindful_analysis/actions
+[badge]: https://img.shields.io/badge/style-mindful_analysis-B22C89.svg
+[badge_link]: https://pub.dev/packages/mindful_analysis
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_badge_link]: https://opensource.org/licenses/MIT
-[logo_black]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_black.png#gh-light-mode-only
-[logo_white]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_white.png#gh-dark-mode-only
 [pedantic_link]: https://github.com/dart-lang/pedantic
-[pub_badge]: https://img.shields.io/pub/v/very_good_analysis.svg
-[pub_badge_link]: https://pub.dartlang.org/packages/very_good_analysis
-[very_good_ventures_link]: https://verygood.ventures
-[very_good_ventures_link_dark]: https://verygood.ventures#gh-dark-mode-only
-[very_good_ventures_link_light]: https://verygood.ventures#gh-light-mode-only
+[pub_badge]: https://img.shields.io/pub/v/mindful_analysis.svg
+[pub_badge_link]: https://pub.dartlang.org/packages/mindful_analysis
+[mindful_software_link]: https://mindfulsoftware.com
